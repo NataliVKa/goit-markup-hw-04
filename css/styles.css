@@ -38,6 +38,8 @@ address {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -182,14 +184,14 @@ img {
 /**----------HERO------------*/
 
 .main {
+}
+
+.hero {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
-}
-
-.hero {
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 1440px;
